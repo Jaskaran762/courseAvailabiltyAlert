@@ -69,7 +69,6 @@ while True:
 
     # Access the specific data you need directly
     mobile_data = api_data[184]
-    print(mobile_data['PERC_FULL'])
 
     if mobile_data['PERC_FULL'] != 'FULL' or mobile_data['CRSE_TITLE'] != 'Mobile Computing':
         print('hi')
