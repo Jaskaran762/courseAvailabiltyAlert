@@ -64,9 +64,6 @@ while True:
     time.sleep(1)
     api_data = fetch_api_data(api_url)
 
-    # Print or process the response data as needed
-    print(api_data[184])
-
     # Access the specific data you need directly
     mobile_data = api_data[184]
 
