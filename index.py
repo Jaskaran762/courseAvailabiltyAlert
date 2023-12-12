@@ -69,7 +69,7 @@ while True:
 
     print(mobile_data['PERC_FULL'])
 
-    if mobile_data['PERC_FULL'] == 'FULL' or mobile_data['CRSE_TITLE'] != 'Mobile Computing':
+    if mobile_data['PERC_FULL'] != 'FULL' or mobile_data['CRSE_TITLE'] != 'Mobile Computing':
         print('hi')
         send_email(mobile_data)
         time.sleep(60)
